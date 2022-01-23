@@ -1,0 +1,31 @@
+{
+  "name": "main-game-server",
+  "version": "1.0.0",
+  "description": "The main game server implementation that custom games will use for centralized consistent communication.",
+  "main": "mainserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewfritz/main-game-server.git"
+  },
+  "keywords": [
+    "game",
+    "server"
+  ],
+  "author": "Matthew Fritz <mattf@burbankparanormal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewfritz/main-game-server/issues"
+  },
+  "homepage": "https://github.com/matthewfritz/main-game-server#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "redis": "^4.0.2",
+    "socket.io": "^4.4.1"
+  }
+}
