@@ -25,6 +25,10 @@ This implementation contains a communication server, a RESTful web service API, 
    * Node package: [socket.io](https://www.npmjs.com/package/socket.io)
 * [Socket.io Redis Adapter](https://socket.io/docs/v4/redis-adapter)
    * Node package: [@socket.io/redis-adapter](https://www.npmjs.com/package/@socket.io/redis-adapter)
+* [VueJS](https://vuejs.org/)
+   * Node package: [vue](https://www.npmjs.com/package/vue)
+* [Axios](https://axios-http.com/)
+   * Node package: [axios](https://www.npmjs.com/package/axios)
 
 ## Installation
 
