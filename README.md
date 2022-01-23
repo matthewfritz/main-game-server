@@ -23,6 +23,8 @@ This implementation contains a communication server, a RESTful web service API, 
    * Node package: [express](https://www.npmjs.com/package/express)
 * [Socket.io](https://socket.io)
    * Node package: [socket.io](https://www.npmjs.com/package/socket.io)
+* [Socket.io Redis Adapter](https://socket.io/docs/v4/redis-adapter)
+   * Node package: [@socket.io/redis-adapter](https://www.npmjs.com/package/@socket.io/redis-adapter)
 
 ## Installation
 
