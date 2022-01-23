@@ -21,15 +21,21 @@
   },
   "homepage": "https://github.com/matthewfritz/main-game-server#readme",
   "dependencies": {
+    "@popperjs/core": "^2.11.2",
     "@socket.io/redis-adapter": "^7.1.0",
     "axios": "^0.25.0",
+    "bootstrap": "^5.1.3",
     "cookie-parser": "^1.4.6",
     "dotenv": "^14.2.0",
     "express": "^4.17.2",
     "express-session": "^1.17.2",
+    "jquery": "^3.6.0",
     "mysql": "^2.18.1",
     "redis": "^4.0.2",
     "socket.io": "^4.4.1",
     "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.41"
   }
 }
