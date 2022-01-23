@@ -24,6 +24,7 @@
     "@socket.io/redis-adapter": "^7.1.0",
     "axios": "^0.25.0",
     "cookie-parser": "^1.4.6",
+    "dotenv": "^14.2.0",
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "mysql": "^2.18.1",

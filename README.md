@@ -9,6 +9,7 @@ This implementation contains a communication server, a RESTful web service API, 
 * [Requirements and Packages](#requirements-and-packages)
 * [Installation](#installation)
    * [Install Node Packages](#install-node-packages)
+   * [Configuration](#configuration)
 * [Starting the Server](#starting-the-server)
 * [Stopping the Server](#stopping-the-server)
 
@@ -19,6 +20,10 @@ This implementation contains a communication server, a RESTful web service API, 
    * Node package: [mysql](https://www.npmjs.com/package/mysql)
 * [Redis](https://redis.io/)
    * Node package: [redis](https://www.npmjs.com/package/redis)
+* [Axios](https://axios-http.com/)
+   * Node package: [axios](https://www.npmjs.com/package/axios)
+* [Dotenv](https://github.com/motdotla/dotenv)
+   * Node package: [dotenv](https://www.npmjs.com/package/dotenv)
 * [Express](https://expressjs.com/)
    * Node packages:
       * [express](https://www.npmjs.com/package/express)
@@ -31,8 +36,6 @@ This implementation contains a communication server, a RESTful web service API, 
    * Node package: [@socket.io/redis-adapter](https://www.npmjs.com/package/@socket.io/redis-adapter)
 * [VueJS](https://vuejs.org/)
    * Node package: [vue](https://www.npmjs.com/package/vue)
-* [Axios](https://axios-http.com/)
-   * Node package: [axios](https://www.npmjs.com/package/axios)
 
 ## Installation
 
@@ -41,6 +44,14 @@ This implementation contains a communication server, a RESTful web service API, 
 ```
 npm install
 ```
+
+## Configuration
+
+```
+cp .env.example .env
+```
+
+Now modify the `.env` configuration values to match your environment.
 
 ## Commands
 
