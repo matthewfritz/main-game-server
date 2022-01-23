@@ -18,7 +18,7 @@ This implementation contains a communication server, a RESTful web service API, 
 * [MySQL](https://www.mysql.com) / [MariaDB](https://mariadb.org)
    * Node package: [mysql](https://www.npmjs.com/package/mysql)
 * [Redis](https://redis.io/)
-   * Node package: [node-redis](https://www.npmjs.com/package/redis)
+   * Node package: [redis](https://www.npmjs.com/package/redis)
 * [Express](https://expressjs.com/)
    * Node package: [express](https://www.npmjs.com/package/express)
 * [Socket.io](https://socket.io)
